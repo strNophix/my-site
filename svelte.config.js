@@ -17,7 +17,7 @@ const config = {
 			default: true
 		},
 		paths: {
-			base: isDev ? '' : '/my-site'
+			base: ''
 		}
 	}
 };
