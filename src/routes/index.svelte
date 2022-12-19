@@ -1,7 +1,7 @@
 <script>
 	const socials = [
 		{
-			display: 'Anilist',
+			display: 'AniList',
 			href: 'https://anilist.co/user/strniku'
 		},
 		{
@@ -9,8 +9,8 @@
 			href: 'https://git.cesium.pw/niku'
 		},
 		{
-			display: 'Reddit',
-			href: 'https://www.reddit.com/user/strmaybephix'
+			display: 'Mastodon',
+			href: 'https://mastodon.nl/@niku'
 		},
 		{
 			display: 'LastFM',
@@ -31,7 +31,7 @@
 	</h2>
 	<p>
 		My hobbies are coding, consuming japanese culture, drinking tea, mechanical keyboards and
-		bricking linux installs. My current daily driver is EndeavourOS GNOME.
+		bricking linux installs. My current daily driver is EndeavourOS BTW.
 	</p>
 	<ul class="leading-6">
 		{#each socials as social}
