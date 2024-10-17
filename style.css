@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "JetBrainsMono";
+  src: url("/fonts/JetBrainsMono-Regular.woff2") format("woff2");
+}
+
+html {
+  font-family: "JetBrainsMono", monospace;
+}
+
+::selection {
+  @apply bg-red-300;
+}
+
+.marked {
+  @apply bg-red-400 p-1 text-slate-800;
+}
+
+.social-li {
+  @apply p-1;
+}
+
+.social-li:hover {
+  @apply marked;
+}
